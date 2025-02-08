@@ -10,7 +10,7 @@ const GalleryHero = () => {
   useEffect(() => {
     const fetchHeroImage = async () => {
       try {
-        const response = await fetch('http://localhost:5003/images');
+        const response = await fetch('https://jr5-travel.onrender.com/images');
         const data = await response.json();
 
         console.log('API Response:', data);
