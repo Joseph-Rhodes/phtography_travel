@@ -7,7 +7,7 @@ const Header = () => {
 
   useEffect(() => {
     // Fetch folder names from the server
-    fetch("http://localhost:5003/images")
+    fetch("https://jr5-travel.onrender.com/images")
       .then((response) => response.json())
       .then((data) => setFolders(data))
       .catch((error) => console.error("Error fetching folders:", error));
