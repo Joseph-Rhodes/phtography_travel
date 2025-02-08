@@ -1,0 +1,17 @@
+.gallery-hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  background-size: cover;
+
+  background-position: center;
+  color: #fff;
+  text-align: center;
+}
+
+.gallery-hero-text {
+  font-size: 36px;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}

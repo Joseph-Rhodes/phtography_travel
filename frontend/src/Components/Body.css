@@ -1,0 +1,55 @@
+/* Container for all folder sections */
+.body-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+  background-color: #f8f4f0; /* Light beige for the body */
+}
+
+/* Folder section styling */
+.folder-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.folder-section.text-left {
+  flex-direction: row; /* Image on the left, text on the right */
+}
+
+.folder-section.text-right {
+  flex-direction: row-reverse; /* Image on the right, text on the left */
+}
+
+/* Folder image styling */
+.folder-image {
+  width: 55%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Folder text styling */
+.folder-text {
+  width: 45%;
+  text-align: center;
+  font-family: "Georgia", serif;
+  color: #704c24;
+}
+
+.folder-text h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.folder-link {
+  font-size: 20px;
+  color: #704c24;
+  text-decoration: none;
+}
+
+.folder-link:hover {
+  color: #a67c52;
+}
